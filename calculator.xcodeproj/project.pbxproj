@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE84D5491E046AA6000B0FC1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE84D5481E046AA6000B0FC1 /* SettingsViewController.swift */; };
 		BEDADACD1E026B8D00576902 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDADACC1E026B8D00576902 /* AppDelegate.swift */; };
 		BEDADACF1E026B8D00576902 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDADACE1E026B8D00576902 /* ViewController.swift */; };
 		BEDADAD21E026B8E00576902 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDADAD01E026B8E00576902 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE84D5481E046AA6000B0FC1 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		BEDADAC91E026B8D00576902 /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEDADACC1E026B8D00576902 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEDADACE1E026B8D00576902 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				BEDADAD31E026B8E00576902 /* Assets.xcassets */,
 				BEDADAD51E026B8E00576902 /* LaunchScreen.storyboard */,
 				BEDADAD81E026B8E00576902 /* Info.plist */,
+				BE84D5481E046AA6000B0FC1 /* SettingsViewController.swift */,
 			);
 			path = calculator;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				BEDADACF1E026B8D00576902 /* ViewController.swift in Sources */,
 				BEDADACD1E026B8D00576902 /* AppDelegate.swift in Sources */,
+				BE84D5491E046AA6000B0FC1 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,7 +416,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.brandon.calculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brandon.Tiptotab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,7 +428,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.brandon.calculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brandon.Tiptotab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -503,6 +507,7 @@
 				BEDADAF31E026B8F00576902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEDADAF41E026B8F00576902 /* Build configuration list for PBXNativeTarget "calculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				BEDADAF61E026B8F00576902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEDADAF71E026B8F00576902 /* Build configuration list for PBXNativeTarget "calculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				BEDADAF91E026B8F00576902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
